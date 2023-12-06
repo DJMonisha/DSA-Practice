@@ -2,6 +2,7 @@ import java.util.*;
 public class largest_element {
  
   public static void main(String args[]) {
+    
  
     int arr1[] =  {2,5,1,3,0};
     System.out.println("The Largest element in the array is: " + sort(arr1));
@@ -9,8 +10,19 @@ public class largest_element {
     int arr2[] =  {8,10,5,7,9};
     System.out.println("The Largest element in the array is: " + sort(arr2));
   }
+  //Brute Force approach
   static int sort(int arr[]) {
     Arrays.sort(arr);
     return arr[arr.length - 1];
+  }
+  //Optimal Approach
+  static int findLargestElement(int arr[]) {
+    int max= arr[0];
+    for (int i = 0; i < arr.length; i++) {
+      if (arr[i] > max) {
+        max= arr[i];
+      }
+    }
+    return max;
   }
 }
