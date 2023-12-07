@@ -8,7 +8,7 @@ public class Main1 {
 
         int hash[] = new int[N + 1]; //hash array
 
-        // storing the frequencies:
+        // storing the frequencies
         for (int i = 0; i < N - 1; i++)
             hash[a[i]]++;
 
