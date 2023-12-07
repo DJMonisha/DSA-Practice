@@ -1,6 +1,6 @@
 
 
-
+//using Hashing Technique
 import java.util.*;
 
 public class Main1 {
