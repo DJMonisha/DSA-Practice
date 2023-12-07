@@ -12,7 +12,7 @@ public class Main2 {
         int maxLen = 0;
         for (int i = 0; i < n; i++) {
             //calculate the prefix sum till index i
-            sum += a[i];
+            sum += a[i]; 
 
             // if the sum = k, update the maxLen
             if (sum == k) {
