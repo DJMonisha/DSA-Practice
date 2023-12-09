@@ -23,11 +23,14 @@ public class twoSum {
     }
 
 }
+
+//Output : YES
+
 /* 
 
 Code Variant 2:
 
- *import java.util.*;
+import java.util.*;
 
 public class Main {
     public static int[] twoSum(int n, int []arr, int target) {
@@ -55,4 +58,7 @@ public class Main {
     }
 
 } 
+
+//Output : [1,3]
+
  */
