@@ -1,6 +1,6 @@
 //Using Hashing Technique
 
-//Code Variant 1:
+//Code Variant1 :
 
 import java.util.*;
 
